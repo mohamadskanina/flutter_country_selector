@@ -16,7 +16,10 @@ dependencies:
 
   intl: ">=0.18.0 <=1.0.0"
   diacritic: ^0.1.5
-  circle_flags: ^5.0.0
+  circle_flags:
+    git:
+      url:  https://github.com/mohamadskanina/flutter_circle_flags.git
+      ref: sy-freedom-flag
   # for iso codes, phone_numbers_parser needs to stay currently
   # as the flutter_country_selector library needs to be
   # compatible with phone_form_field
